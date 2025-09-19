@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <title>title</title>
-    <link rel="stylesheet" href="style.css" />
     <script>
       import('./data.json', { with: { type: 'json' } }).then((module) => console.log('data', module.default));
       import('./style.css', { with: { type: 'css' } }).then((module) => console.log('sheet', module.default));
